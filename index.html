@@ -8,53 +8,48 @@
     body {
       margin: 0;
       font-family: system-ui, sans-serif;
-      background-color: #111;
-      color: #f0f0f0;
+      background-color: #0e0e0e;
+      color: #f4f4f4;
+      padding: 2rem 1rem;
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 2rem;
     }
 
     .description {
       max-width: 800px;
-      background: #1c1c1c;
+      background: #1a1a1a;
       padding: 1.5rem;
-      border-radius: 10px;
+      border-radius: 12px;
       margin-bottom: 2rem;
-      box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+      text-align: center;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
     }
 
     .description h1 {
-      margin-top: 0;
-      font-size: 1.8rem;
-      color: #00ffe4;
+      color: #00ffe1;
+      margin-bottom: 0.5rem;
     }
 
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.2rem;
+      gap: 1rem;
       width: 100%;
-      max-width: 1000px;
+      max-width: 1200px;
     }
 
     .gallery img {
       width: 100%;
+      height: auto;
       border-radius: 10px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-      transition: transform 0.3s ease;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      transition: transform 0.2s ease;
     }
 
     .gallery img:hover {
-      transform: scale(1.03);
-    }
-
-    @media (max-width: 500px) {
-      .description {
-        padding: 1rem;
-        font-size: 0.95rem;
-      }
+      transform: scale(1.02);
     }
   </style>
 </head>
@@ -69,14 +64,14 @@
   </div>
 
   <div class="gallery">
-    <img src="1.jpg" alt="Project 1">
-    <img src="2.jpg" alt="Project 2">
-    <img src="3.jpg" alt="Project 3">
-    <img src="4.jpg" alt="Project 4">
-    <img src="5.jpg" alt="Project 5">
-    <img src="6.jpg" alt="Project 6">
-    <img src="7.jpg" alt="Project 7">
-    <img src="8.jpg" alt="Project 8">
+    <img src="1.jpg" alt="Project 1" />
+    <img src="2.jpg" alt="Project 2" />
+    <img src="3.jpg" alt="Project 3" />
+    <img src="4.jpg" alt="Project 4" />
+    <img src="5.jpg" alt="Project 5" />
+    <img src="6.jpg" alt="Project 6" />
+    <img src="7.jpg" alt="Project 7" />
+    <img src="8.jpg" alt="Project 8" />
   </div>
 </body>
 </html>
