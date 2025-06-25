@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Luckyman9299's Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background-color: #111;
+      color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .description {
+      max-width: 800px;
+      background: #1c1c1c;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+    }
+
+    .description h1 {
+      margin-top: 0;
+      font-size: 1.8rem;
+      color: #00ffe4;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.2rem;
+      width: 100%;
+      max-width: 1000px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+
+    @media (max-width: 500px) {
+      .description {
+        padding: 1rem;
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="description">
+    <h1>Hi, I'm luckyman9299</h1>
+    <p>
+      But I work on my alt, <strong>luckydude9299</strong>. I work on my alt to avoid the risk of getting banned on my main for no reason.
+      Because I run Linux, I have to do workarounds to get Roblox Studio and Roblox to work — which, for some reason, can still get you
+      falsely banned.
+    </p>
+  </div>
+
+  <div class="gallery">
+    <img src="1.jpg" alt="Project 1">
+    <img src="2.jpg" alt="Project 2">
+    <img src="3.jpg" alt="Project 3">
+    <img src="4.jpg" alt="Project 4">
+    <img src="5.jpg" alt="Project 5">
+    <img src="6.jpg" alt="Project 6">
+    <img src="7.jpg" alt="Project 7">
+    <img src="8.jpg" alt="Project 8">
+  </div>
+</body>
+</html>
